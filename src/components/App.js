@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import StartApp from './StartApp';
 
 const AppStyle = {
   margin: '5px',
@@ -17,10 +18,6 @@ const headerStyle = {
   fontStyle: 'italic'
 }
 
-const startQuizStyle = {
-  border: '1px solid black'
-}
-
 class App extends Component {
   render() {
     return (
@@ -31,6 +28,7 @@ class App extends Component {
         <p style={AppIntroStyle}>
           Do you want to Test your skills, You are in the right path then.. click the start now button to begin
         </p>
+        <StartApp />
       </div>
     )
   }
